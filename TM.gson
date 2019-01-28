@@ -1,0 +1,584 @@
+{
+     "createBy": "http://liujiacai.net/gooreplacer/",
+     "createAt": "Fri Dec 18 2015 17:02:58 GMT+0800",
+     "rules": {
+          "ajax.googleapis.com": {
+               "dstURL": "ajax.lug.ustc.edu.cn",
+               "enable": true
+          },
+          "fonts.googleapis.com": {
+               "dstURL": "fonts.lug.ustc.edu.cn",
+               "enable": true
+          },
+          "themes.googleusercontent.com": {
+               "dstURL": "google-themes.lug.ustc.edu.cn",
+               "enable": true
+          },
+          "fonts.gstatic.com": {
+               "dstURL": "fonts-gstatic.lug.ustc.edu.cn",
+               "enable": true
+          },
+          "http.*://platform.twitter.com/widgets.js": {
+               "dstURL": "https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/widgets.js",
+               "enable": true
+          },
+          "http.*://apis.google.com/js/api.js": {
+               "dstURL": "https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/api.js",
+               "enable": true
+          },
+          "http.*://apis.google.com/js/plusone.js": {
+               "dstURL": "https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/plusone.js",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jquery-1.7.2.min.js": {
+               "dstURL": "http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/_combined_loggedin.css.?v=1.002": {
+               "dstURL": "http://trophymanager.cn/tm/css/_combined_loggedin1.002.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/_combined.css.?v=1.010": {
+               "dstURL": "http://trophymanager.cn/tm/css/_combined.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/large_text.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/large_text.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js2/feed_new_content.php.?lang=cn&v=1.006": {
+               "dstURL": "http://trophymanager.cn/tm/js2/feed_new_content.php.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "http://be.sponsorpay.com/assets/web_client.js": {
+               "dstURL": "http://trophymanager.cn/tm/js2/web_client.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/frontpage.css.?v=1.003": {
+               "dstURL": "http://trophymanager.cn/tm/css/frontpage.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/frontpage.js.?v=1.002": {
+               "dstURL": "http://trophymanager.cn/tm/js/frontpage.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/pics/frontpage_logo.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/frontpage_logo.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/nt_logos/140px/tw.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/nt_logos/140px/tw.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "http://www.youtube.com/embed/ZVY6SZI7sBI.?rel=0": {
+               "dstURL": "http://player.youku.com/player.php/sid/XNzAyMjg0ODIw/v.swf",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/jquery.swfobject.1-1-1.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.swfobject.1-1-1.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/greensock/TweenMax.min.js.?v=1.01": {
+               "dstURL": "http://trophymanager.cn/tm/js/greensock/TweenMax.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/_combined_mobile_share.min.js.?v=1.004": {
+               "dstURL": "http://trophymanager.cn/tm/js/_combined_mobile_share.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/_combined_loggedin.min.js.?v=1.004": {
+               "dstURL": "http://trophymanager.cn/tm/js/_combined_loggedin.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/medium_text.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/medium_text.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/small_text.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/small_text.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "http://js.pusher.com/2.2/pusher.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js2/pusher.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/Countdown.js.?v=": {
+               "dstURL": "http://trophymanager.cn/tm/js/Countdown.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/tlpop_transfer.js.?v=1.011": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop_transfer.js",
+               "kind": "wildcard",
+               "enable": false
+          },
+          "https://static.trophymanager.com/js/tlpop.js.?v=1.020": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop.js",
+               "kind": "wildcard",
+               "enable": false
+          },
+          "https://trophymanager.com/css/transfer_pop_up.css.?v=1.01": {
+               "dstURL": "http://trophymanager.cn/tm/css/transfer_pop_up.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/players_bteam.js.?v=1.014": {
+               "dstURL": "http://trophymanager.cn/tm/js/players_bteam.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/jquery.jqplot.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.jqplot.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/jqplot.canvasTextRenderer.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jqplot.canvasTextRenderer.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jqplot.pointLabels.min.js.?": {
+               "dstURL": "http://trophymanager.cn/tm/js/jqplot.pointLabels.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/player_profile.js.?v=1.035": {
+               "dstURL": "http://trophymanager.cn/tm/js/player_profile.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/color_functions.js.?0.1": {
+               "dstURL": "http://trophymanager.cn/tm/js/color_functions.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jqplot.canvasAxisLabelRenderer.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jqplot.canvasAxisLabelRenderer.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/icons/offline.gif": {
+               "dstURL": "http://trophymanager.cn/tm/pics/icons/offline.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/icons/online.gif": {
+               "dstURL": "http://trophymanager.cn/tm/pics/icons/online.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/icons/lg_ban.gif": {
+               "dstURL": "http://trophymanager.cn/tm/pics/icons/lg_ban.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/icons/lg_ina.gif": {
+               "dstURL": "http://trophymanager.cn/tm/pics/icons/lg_ina.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/pics/flags/flag_gradient_sprite.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/flags/flag_gradient_sprite.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/stadium.css.?v=1.001": {
+               "dstURL": "http://trophymanager.cn/tm/css/stadium.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/feed.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/feed.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/feed.js.?v=1.001": {
+               "dstURL": "http://trophymanager.cn/tm/js/feed.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/jquery.Jcrop.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/jquery.Jcrop.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jquery.Jcrop.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.Jcrop.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/jquery.Jcrop.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.Jcrop.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/css/jquery.Jcrop.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/jquery.Jcrop.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/training_.js.?v=1.005": {
+               "dstURL": "http://trophymanager.cn/tm/js/training_.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/players_list.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/players_list.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/home.css.?v=1.002": {
+               "dstURL": "http://trophymanager.cn/tm/css/home.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/background.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/background.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js": {
+               "dstURL": "https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/casualkit-sdk.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/casualkit-sdk.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/jquery.caret.1.02.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.caret.1.02.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/shared_functions.js.?v=1.006": {
+               "dstURL": "http://trophymanager.cn/tm/js/shared_functions.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/forum.js.?v=1.027": {
+               "dstURL": "http://trophymanager.cn/tm/js/forum.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/shared_styles.css.?v=1.002": {
+               "dstURL": "http://trophymanager.cn/tm/css/shared_styles.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/forum.css.?v=1.011": {
+               "dstURL": "http://trophymanager.cn/tm/css/forum.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/tactics.js.?v=1.034": {
+               "dstURL": "http://trophymanager.cn/tm/js/tactics.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/tactics.css.?v=1.015": {
+               "dstURL": "http://trophymanager.cn/tm/css/tactics.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/account.js.?v=1.021": {
+               "dstURL": "http://trophymanager.cn/tm/js/account.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/colorpicker.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/colorpicker.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/colorpicker.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/colorpicker.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/tlpop_transfer.js.?v=1.013": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop_transfer.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/tlpop.js.?v=1.021": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/matchviewer2.css.?v=2.1.20%3E": {
+               "dstURL": "http://trophymanager.cn/tm/css/matchviewer2.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/matchviewer.2.0.js.?v=3.014": {
+               "dstURL": "http://trophymanager.cn/tm/js/matchviewer.2.0.js",
+               "kind": "wildcard",
+               "enable": false
+          },
+          "https://static.trophymanager.com/js/matchviewer.2.0.templates.js.?v=3.003": {
+               "dstURL": "http://trophymanager.cn/tm/js/matchviewer.2.0.templates.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/matchviewer.2.0.functions.js.?v=2.1.3": {
+               "dstURL": "http://trophymanager.cn/tm/js/matchviewer.2.0.functions.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jquery.jqplugin.1.0.2.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.jqplugin.1.0.2.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js2/global_content.php.?lang=cn&v=1440573046": {
+               "dstURL": "http://trophymanager.cn/tm/js2/global_content.php.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/css/jquery.cookiecrap.min.css": {
+               "dstURL": "http://trophymanager.cn/tm/css/jquery.cookiecrap.min.css",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/jquery.cookiecrap.min.js.?v=1.02": {
+               "dstURL": "http://trophymanager.cn/tm/js/jquery.cookiecrap.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/red_login_button_sprite.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/red_login_button_sprite.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/tutorial_tasks.js?v=1.004": {
+               "dstURL": "http://trophymanager.cn/tm/js/tutorial_tasks.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/screenshots/screenshot_league.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/screenshots/screenshot_league.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/screenshots/screenshot_tactics.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/screenshots/screenshot_tactics.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/screenshots/screenshot_stadium2.jpg": {
+               "dstURL": "http://trophymanager.cn/tm/pics/screenshots/screenshot_stadium2.jpg",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/0.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/0.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/1.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/1.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/2.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/2.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/3.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/3.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/4.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/4.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/5.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/5.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/6.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/6.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/mega_toggle_sprite.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/mega_toggle_sprite.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/topmenu/sub_menu_shadow.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/topmenu/sub_menu_shadow.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/mr_tut.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/mr_tut.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/arrow.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/arrow.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/arrow_down.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/arrow_down.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/arrow_left.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/arrow_left.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/arrow_right.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/arrow_right.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tutorial/arrow_up.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tutorial/arrow_up.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tactics_main_field.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tactics_main_field.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/tactics_small_field.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/tactics_small_field.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/js/matchviewer.2.0.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/matchviewer.2.0.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js2/global_content.php": {
+               "dstURL": "http://trophymanager.cn/tm/js2/global_content.php.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/mail_graphic.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/mail_graphic.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/star.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/star.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/star_silver.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/star_silver.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/micro_stopwatch.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/micro_stopwatch.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/matchviewer/top_frame.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/matchviewer/top_frame.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/matchviewer/top_frame_under.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/matchviewer/top_frame_under.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/megastars.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/megastars.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/training/field.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/training/field.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/training/main_sprite.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/training/main_sprite.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/trophy_qm_silver_mini.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/trophy_qm_silver_mini.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/trophy_qm_gold_mini.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/trophy_qm_gold_mini.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/trophy_qm_bronze_mini.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/trophy_qm_bronze_mini.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/binoc.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/binoc.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/circle_check.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/circle_check.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://static.trophymanager.com/pics/errow.png": {
+               "dstURL": "http://trophymanager.cn/tm/pics/errow.png",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/tlpop.js.?v=1.035": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/_combined.min.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/_combined.min.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/tlpop.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/tlpop.js",
+               "kind": "wildcard",
+               "enable": true
+          },
+          "https://trophymanager.com/js/tactics.js": {
+               "dstURL": "http://trophymanager.cn/tm/js/tactics.js",
+               "kind": "wildcard",
+               "enable": true
+          }
+     }
+}
